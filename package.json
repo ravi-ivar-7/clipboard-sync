@@ -13,6 +13,6 @@
     "build:windows": "cd windows && dotnet publish --configuration Release --self-contained true --runtime win-x64 --output ./publish --p:PublishSingleFile=true --p:DebugType=None --p:EnableCompressionInSingleFile=true"
   },
   "dependencies": {
-    "next": "^16.0.0"
+    "next": "16.0.10"
   }
 }
